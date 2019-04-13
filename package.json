@@ -1,0 +1,41 @@
+{
+	"name": "geo-wifi",
+	"version": "0.0.0",
+	"description": "Check if Wi-Fi network is located in a reasonable geographic location.",
+	"license": "MIT",
+	"repository": "rodrigobdz/geo-wifi",
+	"author": {
+		"name": "Rodrigo Bermudez Schettino",
+		"email": "rodrigobermudezschettino@gmail.com",
+		"url": "github.com/rodrigobdz/geo-wifi"
+	},
+	"engines": {
+		"node": ">6"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"wifi",
+		"geolocation",
+		"range",
+		"maps",
+		"venue",
+		"rogue",
+		"accesspoint"
+	],
+	"dependencies": {
+		"@google/maps": "^0.5.5",
+		"chalk": "^2.4.2",
+		"dotenv": "^7.0.0",
+		"figlet": "^1.2.1",
+		"inquirer": "^6.2.2"
+	},
+	"devDependencies": {
+		"ava": "^0.25.0",
+		"xo": "^0.21.0"
+	}
+}
