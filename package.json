@@ -29,9 +29,7 @@
 	],
 	"dependencies": {
 		"@google/maps": "^0.5.5",
-		"chalk": "^2.4.2",
 		"dotenv": "^7.0.0",
-		"figlet": "^1.2.1",
 		"inquirer": "^6.2.2"
 	},
 	"devDependencies": {

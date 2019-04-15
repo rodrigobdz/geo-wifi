@@ -4,21 +4,9 @@ const googleMapsClient = require('@google/maps').createClient({
 	key: process.env.GOOGLE_MAPS_API,
 	Promise
 });
-const chalk = require('chalk');
-const figlet = require('figlet');
 const inquirer = require('inquirer');
 
 const WIFI_RANGE_THRESHOLD_IN_M = 92;
-
-function displayHeader(ssid, location) {
-	console.log(
-		chalk.green(
-			figlet.textSync('geo-wifi')
-		)
-	);
-	console.log(`SSID: ${ssid}`);
-	console.log(`Location:`, location);
-}
 
 /**
  * Divide SSID by letters and digits or letters or digits
