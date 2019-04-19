@@ -70,7 +70,6 @@ function nearbyVenues(keyword, location, radius = WIFI_RANGE_THRESHOLD_IN_M) {
  * within reasonable distance from location.
  */
 async function geoWifi(ssid, location) {
-	displayHeader(ssid, location);
 	// Substring of SSID to validate geographic location
 	const {answer} = await askUserQueryFromSsid(ssid);
 	return nearbyVenues(answer, location);
