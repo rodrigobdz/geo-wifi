@@ -1,6 +1,6 @@
 {
 	"name": "geo-wifi",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Check if Wi-Fi network is located in a reasonable geographic location",
 	"license": "MIT",
 	"repository": "rodrigobdz/geo-wifi",
